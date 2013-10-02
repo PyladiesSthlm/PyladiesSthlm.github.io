@@ -38,24 +38,25 @@ body {
   line-height: 24px;
 }
 
-.icons > div {
+.icons > a, .icons > a:hover {
   display: inline-block;
   margin: 6px;
+  text-decoration: none;
 }
 
-.icon-twitter {
+a.icon-twitter, a.icon-twitter:hover {
   color: #20ABD3;
 }
 
-.icon-facebook {
+a.icon-facebook, a.icon-facebook:hover {
   color: #4B6498;
 }
 
-.icon-meetup {
+a.icon-meetup, a.icon-meetup:hover {
   color: #E51938;
 }
 
-.icon-github-circled {
+a.icon-github-circled, a.icon-github-circled:hover {
   color: black;
 }
 
